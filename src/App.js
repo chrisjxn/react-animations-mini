@@ -1,4 +1,5 @@
 // Follow along here: https://scrimba.com/casts/cdNzpuk
+// Questions for Joe: (1) why didn't we invoke willEnter and willLeave? (2) why didn't we bind willEnter and willLeave? i.e. why didn't we treat these two methods the same as getDefaultStyles and getStyles? (3) why didn't we add spring to willEnter. I think it's because the spring gets applied when we hit enter and the item gets added to the list when the component re-renders...
 
 import React, { Component } from 'react';
 import Card from './Card';
